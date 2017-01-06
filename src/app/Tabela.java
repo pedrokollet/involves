@@ -39,10 +39,9 @@ public class Tabela {
 	
 	public ArrayList<Cidade> tabelaFiltrada(String propriedade, String valor){
 		ArrayList<Cidade> filtrado = new ArrayList<Cidade>();
-
+		
 		for(Cidade c : tabela){
 			if(c.retornaVar(propriedade) == null){
-				System.out.println("Filtro inválido.");
 				return null;
 			}
 				if(c.retornaVar(propriedade).equalsIgnoreCase(valor)){

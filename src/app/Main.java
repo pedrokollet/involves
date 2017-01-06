@@ -37,7 +37,7 @@ public class Main {
 			if(comando.equalsIgnoreCase("exit") || comando.equalsIgnoreCase("sair")){
 				break;
 			}
-			user.readInput(comando, table);
+			System.out.println(user.readInput(comando, table));
 		}
 	}
 }
