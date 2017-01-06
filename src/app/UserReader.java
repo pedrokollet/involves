@@ -46,7 +46,7 @@ public class UserReader {
 			};
 			}
 		} else {
-			return "Filtros de pesquisa inválidos.";
+			return "Filtros de pesquisa inválidos. As colunas existentes são: " + tabela.cabecalho+".";
 		}
 		return "Tabela gerada com sucesso";
 	}

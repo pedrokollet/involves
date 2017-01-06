@@ -29,7 +29,6 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//System.out.println(table.countDistinct("lat"));
 			
 		Scanner userInput = new Scanner(System.in);
 		while(userInput.hasNext()){
